@@ -35,8 +35,8 @@
   ],
   "saas": {
     "name": "Zestful API",
-    "heading": "Parse Recipe Ingredients",
-    "subheading": "API which turns plain recipe strings into beautiful, structured JSON data.",
+    "heading": "**Parse Recipe Ingredients**",
+    "subheading": "An elegant API to turn plain recipe strings into beautiful, structured JSON.",
     "repo": "https://github.com/saasify-sh/zestful",
     "logo": "./media/logo.png",
     "favicon": "./media/favicon.ico",
