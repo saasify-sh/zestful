@@ -1,0 +1,60 @@
+{
+  "name": "zestful-demo",
+  "openapi": "./zestful.openapi.json",
+  "services": [
+    {
+      "path": "/parseIngredients",
+      "immutable": true,
+      "examples": [
+        {
+          "name": "Basic",
+          "input": {
+            "ingredients": [
+              "2 1/2 tablespoons finely chopped parsley"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "pricingPlans": [
+    {
+      "name": "Trial",
+      "amount": 0,
+      "rateLimit": {
+        "requestsInterval": "1d",
+        "requestsMaxPerInterval": 30
+      }
+    },
+    {
+      "name": "Pro",
+      "amount": 0,
+      "rateLimit": null,
+      "requests": {
+        "amount": 2
+      }
+    }
+  ],
+  "saas": {
+    "name": "Zestful API",
+    "heading": "Parse Recipe Ingredients",
+    "subheading": "API which turns plain recipe strings into beautiful, structured JSON data.",
+    "repo": "https://github.com/saasify-sh/zestful",
+    "logo": "./media/logo.png",
+    "favicon": "./media/favicon.ico",
+    "theme": {
+      "name": "waves",
+      "backgroundImage": "./media/bg.jpg",
+      "buttonStyle": "rounded",
+      "color": "#ff6e6c",
+      "wave": false,
+      "gradientDark": false,
+      "codeBlockDark": true
+    },
+    "sections": {
+      "navHeader": {
+        "displayName": false
+      }
+    }
+  }
+}
