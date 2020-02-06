@@ -9,12 +9,10 @@
         {
           "name": "Basic",
           "input": {
-            "ingredients": [
-              "2 1/2 tablespoons finely chopped parsley"
-            ]
+            "ingredients": ["2 1/2 tablespoons finely chopped parsley"]
           }
         }
-      }
+      ]
     }
   ],
   "pricingPlans": [
